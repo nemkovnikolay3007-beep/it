@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Інформаційні технології</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            padding: 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        /* Оцінка */
+        .stars {
+            font-size: 30px;
+            color: gold;
+        }
+
+        input, textarea, button {
+            padding: 8px;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        button {
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Інформаційні технології (IT)</h1>
+</header>
+
+<nav>
+    <a href="#home">Головна</a>
+    <a href="#class">Класифікація ІТ</a>
+    <a href="#ntp">НТП в IT</a>
+    <a href="#use">Сфери застосування</a>
+    <a href="#rating">Оцінка сайту</a>
+</nav>
+
+<!-- СТОРІНКА 1 -->
+<section id="home">
+    <h2>Головна</h2>
+
+    <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f">
+
+    <p>Сьогодні інформаційні технології — це не просто галузь економіки, це середовище, у якому ми живемо, працюємо та розвиваємось.</p>
+
+    <h3>Що таке ІТ?</h3>
+    <p>Інформаційні технології — це сукупність методів і засобів для збирання, зберігання та обробки даних.</p>
+
+    <h3>Ключові компоненти ІТ:</h3>
+    <ul>
+        <li><b>Hardware:</b> комп’ютери, сервери, мережі</li>
+        <li><b>Software:</b> програми та операційні системи</li>
+        <li><b>Brainware:</b> люди, які працюють в IT</li>
+    </ul>
+
+    <footer>Автори: Архипов Ігор, Нємков Микола</footer>
+</section>
+
+<!-- СТОРІНКА 2 -->
+<section id="class">
+    <h2>Класифікація ІТ</h2>
+
+    <img src="https://images.unsplash.com/photo-1537432376769-00a8c8d8b5b5">
+
+    <ul>
+        <li><b>ІТ опрацювання даних</b></li>
+        <li><b>ІТ управління</b></li>
+        <li><b>Автоматизація офісу</b></li>
+        <li><b>DSS</b> — підтримка рішень</li>
+        <li><b>Експертні системи</b> — штучний інтелект</li>
+    </ul>
+
+    <footer>Автори: Архипов Ігор, Нємков Микола</footer>
+</section>
+
+<!-- СТОРІНКА 3 -->
+<section id="ntp">
+    <h2>Науково-технічний прогрес в IT</h2>
+
+    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d">
+
+    <ul>
+        <li>Швидкість обчислень</li>
+        <li>Роботизація</li>
+        <li>Цифрові двійники</li>
+    </ul>
+
+    <footer>Автори: Архипов Ігор, Нємков Микола</footer>
+</section>
+
+<!-- СТОРІНКА 4 -->
+<section id="use">
+    <h2>Сфери застосування ІТ</h2>
+
+    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+
+    <ul>
+        <li>Освіта</li>
+        <li>Медицина</li>
+        <li>Економіка</li>
+        <li>Промисловість</li>
+    </ul>
+
+    <footer>Автори: Архипов Ігор, Нємков Микола</footer>
+</section>
+
+<!-- ✅ СТОРІНКА 5: ОЦІНКА САЙТУ -->
+<section id="rating">
+    <h2>Оцінка сайту</h2>
+
+    <p>Оцініть наш сайт:</p>
+
+    <div class="stars">
+        ⭐ ⭐ ⭐ ⭐ ⭐
+    </div>
+
+    <form>
+        <label>Ваше ім’я:</label><br>
+        <input type="text" placeholder="Введіть ім’я"><br>
+
+        <label>Оцінка (1-5):</label><br>
+        <input type="number" min="1" max="5"><br>
+
+        <label>Коментар:</label><br>
+        <textarea rows="4" placeholder="Ваш відгук"></textarea><br>
+
+        <button type="submit">Надіслати</button>
+    </form>
+
+    <footer>Автори: Архипов Ігор, Нємков Микола</footer>
+</section>
+
+</body>
+</html>
